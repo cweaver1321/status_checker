@@ -1,0 +1,7 @@
+{
+  "requests_count": 1000,
+  "application": "WebApp2",
+  "version": "1.0",
+  "success_count": 400,
+  "error_count": 600
+}
