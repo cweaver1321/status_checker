@@ -16,8 +16,8 @@ public class StatusStoreReporter {
 
         for (StatusModel statusModel: statusModels) {
             successRate = 100 * (double)statusModel.getSuccess_count() / (double)statusModel.getRequests_count();
-            sb.append(statusModel.getApplication() + " " +
-                    statusModel.getVersion() + " " +
+            sb.append(statusModel.getApplication() + ", " +
+                    statusModel.getVersion() + ", " +
                     df.format(successRate) + "%\n");
         }
         return sb.toString();
